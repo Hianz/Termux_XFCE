@@ -23,7 +23,7 @@ echo ""
 read -r -p "Please enter username for proot installation: " username </dev/tty
 
 termux-setup-storage
-termux-change-repo
+# termux-change-repo
 
 export DEBIAN_FRONTEND=noninteractive
 
